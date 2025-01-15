@@ -3,6 +3,7 @@ from web3 import HTTPProvider, Web3
 import time
 
 # loading secrets from .env
+import os
 from dotenv import load_dotenv
 load_dotenv()
 # RPC URL for connecting to the Arbitrum mainnet
@@ -10,7 +11,7 @@ ARBITRUM_MAINNET_RPC_URL=os.environ["ARBITRUM_MAINNET_RPC_URL"]
 # private key for signing transactions (keep this secure)
 PRIVATE_KEY=os.environ["PRIVATE_KEY"]
 # wallet address of the sender
-WALLET_ADDRESS="<PUT_YOUR_WALLET_ADDRESS_HERE>"
+WALLET_ADDRESS=os.environ["WALLET_ADDRESS"]
 
 # Initialize Web3 connection to the Arbitrum mainnet
 w3 = Web3(HTTPProvider(ARBITRUM_MAINNET_RPC_URL))

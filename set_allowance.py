@@ -6,12 +6,13 @@ import os
 
 # constants
 # loading secrets from .env
+import os
 from dotenv import load_dotenv
 load_dotenv()
 ARBITRUM_MAINNET_RPC_URL=os.environ["ARBITRUM_MAINNET_RPC_URL"]
 PRIVATE_KEY=os.environ["PRIVATE_KEY"]
 # wallet address
-WALLET_ADDRESS="<PUT_YOUR_WALLET_ADDRESS_HERE>"
+WALLET_ADDRESS=os.environ["WALLET_ADDRESS"]
 # get account
 w3 = Web3(HTTPProvider(ARBITRUM_MAINNET_RPC_URL))
 account = w3.eth.account.from_key(PRIVATE_KEY)
