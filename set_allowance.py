@@ -1,11 +1,17 @@
 import requests
 from web3 import HTTPProvider, Web3
+import os
+
 
 
 # constants
-ARBITRUM_MAINNET_RPC_URL="<YOUR_ARBITRUM_MAINNET_RPC_URL>"
-PRIVATE_KEY="<YOUR_PRIVATE_KEY>"
-WALLET_ADDRESS="<A_WALLET_ADDRESS>"
+# loading secrets from .env
+from dotenv import load_dotenv
+load_dotenv()
+ARBITRUM_MAINNET_RPC_URL=os.environ["ARBITRUM_MAINNET_RPC_URL"]
+PRIVATE_KEY=os.environ["PRIVATE_KEY"]
+# wallet address
+WALLET_ADDRESS="<PUT_YOUR_WALLET_ADDRESS_HERE>"
 # get account
 w3 = Web3(HTTPProvider(ARBITRUM_MAINNET_RPC_URL))
 account = w3.eth.account.from_key(PRIVATE_KEY)
