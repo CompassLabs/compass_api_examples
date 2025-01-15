@@ -26,6 +26,7 @@ You will need:
 ```bash
 pip install requests
 pip install web3
+pip install python-dotenv
 ```
 
 ## Run the scripts
