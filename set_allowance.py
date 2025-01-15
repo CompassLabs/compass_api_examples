@@ -31,5 +31,17 @@ response = requests.post(url, headers=headers, json=data)
 print(response.json())
 
 
+# Extract transaction data from the API response
+allowance_transaction = response.json()
+print(allowance_transaction)
+
+
+# Sign the transaction using the private key
+allowance_signed_transaction = w3.eth.account.sign_transaction(allowance_transaction, PRIVATE_KEY)
+# Send the signed transaction to the network
+transaction_hash = w3.eth.send_raw_transaction(allowance_signed_transaction.raw_transaction)
+# Print the transaction hash
+print(transaction_hash.hex())
+
 
 

@@ -1,5 +1,6 @@
 import requests
 from web3 import HTTPProvider, Web3
+import time
 
 # Constants
 # RPC URL for connecting to the Arbitrum mainnet
@@ -34,7 +35,7 @@ data = {
 # Send POST request to set allowance
 response = requests.post(url, headers=headers, json=data)
 # Print the API response
-print(response.json())
+print("allowance response")
 
 # Extract transaction data from the API response
 allowance_transaction = response.json()
@@ -45,6 +46,13 @@ allowance_signed_transaction = w3.eth.account.sign_transaction(allowance_transac
 transaction_hash = w3.eth.send_raw_transaction(allowance_signed_transaction.raw_transaction)
 # Print the transaction hash
 print(transaction_hash.hex())
+
+
+
+
+time.sleep(0.1) # wait for the allowance the previous transaction to be broadcasted to the arbitrum network
+
+
 
 # Execute a trade using Uniswap
 # Endpoint for executing a token swap
