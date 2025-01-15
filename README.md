@@ -1,5 +1,5 @@
 # Developer Quick Start
-This repo contains 3 simple python scripts to get you started with the Compass API in 10 minutes:
+This repo contains 3 simple python scripts to help get you started with the Compass API in under 15 minutes:
 
 1. `quick_start.py` is a simple python script that works out of the box with one dependency (requests). It doesn't require any API keys or wallets. It be run with the following command:
 
