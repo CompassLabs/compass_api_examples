@@ -62,7 +62,7 @@ python set_allowance_and_trade_on_uniswap.py
 
 # How to convert between cURL and Python:
 
-[![convert between cURL and Python](./thumbnails/port_to_a_language.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e)
+[![convert between cURL and Python](./thumbnails/port_to_a_language.png)](https://www.loom.com/share/59371704e91c4f4fa8eb6b45be6c17d9?sid=a93fd782-1924-49e1-a326-2043323a3077)
 
 
 
