@@ -51,11 +51,11 @@ python set_allowance_and_trade_on_uniswap.py
 
 # How to use the Compass API with cURL:
 
-[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e?sid=1fddd87c-845e-4ead-a536-e1584f15b069)
+[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/59371704e91c4f4fa8eb6b45be6c17d9?sid=f8208f6c-ec2c-4030-b6be-fa695f93a030)
 
 # How to convert between cURL and Python:
 
-[![convert between cURL and Python](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e)
+[![convert between cURL and Python](./thumbnails/port_to_a_language.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e)
 
 
 
