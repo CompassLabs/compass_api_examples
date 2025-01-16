@@ -15,7 +15,7 @@ python quick_start.py
 
 
 # Compass API Quick Start Guide
-[[Compass API Quick Start Guide](./thumbnails/thumbnail1_pk.png)](https://www.loom.com/embed/617aa0c12f0f4e988d32d84cd7f0c417?sid=01fcdf2e-62cf-476b-adb4-c320f30fdc2a)
+[![Compass API Quick Start Guide](./thumbnails/thumbnail1_pk.png)](https://www.loom.com/embed/617aa0c12f0f4e988d32d84cd7f0c417?sid=01fcdf2e-62cf-476b-adb4-c320f30fdc2a)
 
 
 
