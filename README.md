@@ -22,7 +22,7 @@ python quick_start.py
 
 - https://beta-api.compasslabs.ai/   the API docs
 - https://beta-api-app.compasslabs.ai/   the API GUI
-- 
+- https://compasslabs.github.io/dojo_api/   our site where you can sign transactions with your wallet
 
 
 
@@ -59,6 +59,9 @@ python set_allowance_and_trade_on_uniswap.py
 # How to use the Compass API with cURL:
 
 [![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e?sid=483fc17b-d62a-4a1b-8ecc-e917354fb986)
+
+- https://beta-api-app.compasslabs.ai/   the API GUI
+- https://compasslabs.github.io/dojo_api/   our site where you can sign transactions with your wallet
 
 # How to convert between cURL and Python:
 
