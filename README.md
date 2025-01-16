@@ -18,6 +18,13 @@ python quick_start.py
 [![Compass API Quick Start Guide](./thumbnails/thumbnail1_pk.png)](https://www.loom.com/embed/617aa0c12f0f4e988d32d84cd7f0c417?sid=01fcdf2e-62cf-476b-adb4-c320f30fdc2a)
 
 
+# COMPASS API LINKS:
+
+- https://beta-api.compasslabs.ai/   the API docs
+- https://beta-api-app.compasslabs.ai/   the API GUI
+- 
+
+
 
 ## Prerequisites for scripts 2 and 3:
 
@@ -51,7 +58,7 @@ python set_allowance_and_trade_on_uniswap.py
 
 # How to use the Compass API with cURL:
 
-[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/59371704e91c4f4fa8eb6b45be6c17d9?sid=f8208f6c-ec2c-4030-b6be-fa695f93a030)
+[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e?sid=483fc17b-d62a-4a1b-8ecc-e917354fb986)
 
 # How to convert between cURL and Python:
 
