@@ -13,7 +13,8 @@ python quick_start.py
 
 3. `set_allowance_and_trade_on_uniswap.py` is a python script that sets an allowance for a Uniswap V3 trade and then performs a trade.
 
-[![Compass API Quick Start Guide](https://cdn.loom.com/sessions/thumbnails/617aa0c12f0f4e988d32d84cd7f0c417-with-play.gif)](https://www.loom.com/share/617aa0c12f0f4e988d32d84cd7f0c417?sid=c4363423-99df-4e46-b593-47c4c4e27059)
+<div style="position: relative; padding-bottom: 41.86046511627907%; height: 0;"><iframe src="https://www.loom.com/embed/617aa0c12f0f4e988d32d84cd7f0c417?sid=01fcdf2e-62cf-476b-adb4-c320f30fdc2a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ## Prerequisites for scripts 2 and 3:
 
