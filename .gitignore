@@ -172,3 +172,5 @@ cython_debug/
 #.env.example
 .python-version
 LICENSE
+thumbnails/.DS_Store
+.DS_Store
