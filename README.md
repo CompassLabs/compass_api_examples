@@ -58,7 +58,7 @@ python set_allowance_and_trade_on_uniswap.py
 
 # How to use the Compass API with cURL:
 
-[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://www.loom.com/share/33981afac34441c2ad8d489339b26e4e?sid=483fc17b-d62a-4a1b-8ecc-e917354fb986)
+[![Compass API with cURL](./thumbnails/thumb_nail_3.png)](https://youtu.be/wbSM5Sf-_vo)
 
 - https://beta-api-app.compasslabs.ai/   the API GUI
 - https://compasslabs.github.io/dojo_api/   our site where you can sign transactions with your wallet
