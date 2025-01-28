@@ -54,7 +54,7 @@ python set_allowance_and_trade_on_uniswap.py
 
 # How to use the Compass API GUI:
 
-[![intro to Compass GUI](./thumbnails/thumbnail2_gui.png)](https://www.loom.com/share/8d7325672efb439c80059954b13b7c23)
+[![intro to Compass GUI](./thumbnails/thumbnail2_gui.png)](https://youtu.be/mCuz8XNASfA)
 
 # How to use the Compass API with cURL:
 
