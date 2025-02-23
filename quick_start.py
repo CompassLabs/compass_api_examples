@@ -2,17 +2,12 @@
 
 import requests
 
-url = "https://beta-api.compasslabs.ai/beta/v0/generic/balance/get/arbitrum%3Amainnet"
-headers = {
-    "accept": "application/json",
-    "Content-Type": "application/json"
-}
+url = "https://api.compasslabs.ai/v0/generic/balance/get"
 data = {
-    "sender": "0xb8340945eBc917D2Aa0368a5e4E79C849c461511",
-    "call_data": {
-        "token": "USDT"
-    }
+    "chain": "ethereum:mainnet",
+    "user": "0xb8340945eBc917D2Aa0368a5e4E79C849c461511",
+    "token": "USDT"
 }
 
-response = requests.post(url, headers=headers, json=data)
+response = requests.post(url, json=data)
 print(response.json())
