@@ -20,7 +20,7 @@ python quick_start.py
 
 # COMPASS API LINKS:
 
-- https://beta-api.compasslabs.ai/   the API docs
+- https://api.compasslabs.ai/   the API docs
 - https://beta-api-app.compasslabs.ai/   the API GUI
 - https://compasslabs.github.io/dojo_api/   our site where you can sign transactions with your wallet
 
