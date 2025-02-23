@@ -1,8 +1,5 @@
 import requests
 from web3 import HTTPProvider, Web3
-import os
-
-
 
 # constants
 # loading secrets from .env
@@ -13,20 +10,16 @@ ARBITRUM_MAINNET_RPC_URL=os.environ["ARBITRUM_MAINNET_RPC_URL"]
 PRIVATE_KEY=os.environ["PRIVATE_KEY"]
 # wallet address
 WALLET_ADDRESS=os.environ["WALLET_ADDRESS"]
+
 # get account
 w3 = Web3(HTTPProvider(ARBITRUM_MAINNET_RPC_URL))
 account = w3.eth.account.from_key(PRIVATE_KEY)
 print(account.address)
 
-
 # set an allowance of 3.14 USDT
-
-url = "https://beta-api.compasslabs.ai/beta/v0/generic/allowance/set/arbitrum%3Amainnet"
-headers = {
-    "accept": "application/json",
-    "Content-Type": "application/json"
-}
+url = "https://api.compasslabs.ai/v0/generic/allowance/set"
 data = {
+    "chain": "arbitrum:mainnet",
     "sender": WALLET_ADDRESS,
     "call_data": {
         "token": "USDT",
@@ -34,7 +27,10 @@ data = {
         "amount": "3.14"
     }
 }
-response = requests.post(url, headers=headers, json=data)
+
+
+response = requests.post(url, json=data)
+print(response)
 print(response.json())
 
 
