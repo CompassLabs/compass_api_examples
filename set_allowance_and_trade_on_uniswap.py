@@ -53,18 +53,14 @@ time.sleep(0.1) # wait for the allowance the previous transaction to be broadcas
 
 # Execute a trade using Uniswap
 # Endpoint for executing a token swap
-url = "https://beta-api.compasslabs.ai/beta/v0/uniswap/swap/sell_exactly/arbitrum%3Amainnet"
-
-headers = {
-    "accept": "application/json",  # Specify the response format
-    "Content-Type": "application/json"  # Specify the request payload format
-}
+url = "https://api.compasslabs.ai/v0/uniswap/swap/sell_exactly"
 
 data = {
+    "chain":"arbitrum:mainnet",
     "sender": WALLET_ADDRESS,  # Address of the sender initiating the trade
     "call_data": {
-        "token_in": "USDT",  # Token to sell
-        "token_out": "USDC",  # Token to receive
+        "token_in": "USDC",  # Token to sell
+        "token_out": "USDT",  # Token to receive
         "fee": "0.01",  # Transaction fee percentage
         "amount_in": 1.5,  # Amount of USDT to sell
         "amount_out_minimum": 1.4,  # Minimum amount of USDC to receive
@@ -72,7 +68,7 @@ data = {
     }
 }
 # Send POST request to initiate the trade
-response = requests.post(url, headers=headers, json=data)
+response = requests.post(url, json=data)
 
 # Print the status code and API response
 print(response.status_code)
