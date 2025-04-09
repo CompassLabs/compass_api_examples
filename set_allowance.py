@@ -21,11 +21,9 @@ url = "https://api.compasslabs.ai/v0/generic/allowance/set"
 data = {
     "chain": "arbitrum:mainnet",
     "sender": WALLET_ADDRESS,
-    "call_data": {
-        "token": "USDT",
-        "contract_name": "UniswapV3Router",
-        "amount": "3.14"
-    }
+    "token": "USDT",
+    "contract_name": "UniswapV3Router",
+    "amount": "3.14"
 }
 
 
