@@ -22,11 +22,9 @@ url = "https://api.compasslabs.ai/v0/generic/allowance/set"
 data = {
     "chain": "arbitrum:mainnet",
     "sender": WALLET_ADDRESS,
-    "call_data": {
-        "token": "USDT",
-        "contract_name": "UniswapV3Router",
-        "amount": "3.14"
-    }
+    "token": "USDT",
+    "contract_name": "UniswapV3Router",
+    "amount": "3.14"
 }
 
 # Send POST request to set allowance
@@ -58,14 +56,12 @@ url = "https://api.compasslabs.ai/v0/uniswap/swap/sell_exactly"
 data = {
     "chain":"arbitrum:mainnet",
     "sender": WALLET_ADDRESS,  # Address of the sender initiating the trade
-    "call_data": {
-        "token_in": "USDC",  # Token to sell
-        "token_out": "USDT",  # Token to receive
-        "fee": "0.01",  # Transaction fee percentage
-        "amount_in": 1.5,  # Amount of USDT to sell
-        "amount_out_minimum": 1.4,  # Minimum amount of USDC to receive
-        "wrap_eth": True  # Whether to wrap ETH in the process
-    }
+    "token_in": "USDC",  # Token to sell
+    "token_out": "USDT",  # Token to receive
+    "fee": "0.01",  # Transaction fee percentage
+    "amount_in": 1.5,  # Amount of USDT to sell
+    "amount_out_minimum": 1.4,  # Minimum amount of USDC to receive
+    "wrap_eth": True  # Whether to wrap ETH in the process
 }
 # Send POST request to initiate the trade
 response = requests.post(url, json=data)
