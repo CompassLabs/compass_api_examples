@@ -24,7 +24,7 @@ data = {
     "sender": WALLET_ADDRESS,
     "token": "USDT",
     "contract_name": "UniswapV3Router",
-    "amount": "3.14"
+    "amount": "10"
 }
 
 # Send POST request to set allowance
@@ -59,8 +59,8 @@ data = {
     "token_in": "USDC",  # Token to sell
     "token_out": "USDT",  # Token to receive
     "fee": "0.01",  # Transaction fee percentage
-    "amount_in": 1.5,  # Amount of USDT to sell
-    "amount_out_minimum": 1.4,  # Minimum amount of USDC to receive
+    "amount_in": 0.01,  # Amount of USDT to sell
+    "amount_out_minimum": 0,  # Minimum amount of USDC to receive
     "wrap_eth": True  # Whether to wrap ETH in the process
 }
 # Send POST request to initiate the trade
